@@ -11,6 +11,7 @@
 		6AEBB7652686C78600DFB313 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEBB7642686C78600DFB313 /* ContentView.swift */; };
 		6AEBB7672686C78800DFB313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AEBB7662686C78800DFB313 /* Assets.xcassets */; };
 		6AEBB76A2686C78800DFB313 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AEBB7692686C78800DFB313 /* Preview Assets.xcassets */; };
+		6AEBB7722686C85600DFB313 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEBB7712686C85600DFB313 /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		6AEBB7662686C78800DFB313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AEBB7692686C78800DFB313 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6AEBB76B2686C78800DFB313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AEBB7712686C85600DFB313 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				6AEBB7622686C78600DFB313 /* PokedexApp.swift */,
 				6AEBB7642686C78600DFB313 /* ContentView.swift */,
+				6AEBB7712686C85600DFB313 /* Friend.swift */,
 				6AEBB7662686C78800DFB313 /* Assets.xcassets */,
 				6AEBB76B2686C78800DFB313 /* Info.plist */,
 				6AEBB7682686C78800DFB313 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AEBB7722686C85600DFB313 /* Friend.swift in Sources */,
 				6AEBB7652686C78600DFB313 /* ContentView.swift in Sources */,
 				6AEBB7632686C78600DFB313 /* PokedexApp.swift in Sources */,
 			);
