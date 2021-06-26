@@ -8,10 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var friends = [Friend(name: "YJ", icon: "zzz", school: "Tinkercademy", slothImage: "sloth3", age: 45), Friend(name: "Jia Chen", icon: "swift", school: "Ngee Ann Poly", slothImage: "sloth2", age: 17), Friend(name: "Ruirui", icon: "wifi", school: "NUS High", slothImage: "sloth1", age: 14)]
+    
     var body: some View {
-        ZStack{
-            var friends = [Friend(name: "YJ", icon: "zzz", school: "Tinkercademy", slothImage: "sloth3", age: 45),
-                           Friend(name: "Jia Chen", icon: "swift", school: "Ngee Ann Poly", slothImage: "sloth2", age: 17), Friend(name: "Zerui", icon: "wifi", school: "NUS High", slothImage: "sloth1", age: 14)]
+        NavigationView {
+            ZStack{
+                List(friends) { friend in
+                    NavigationLink(destination: FriendDetailView(friend: friend)){
+                        Image(systemName: friend.icon)
+                        
+                        VStack(alignment: .leading){
+                            Text(friend.name)
+                                .bold()
+                            HStack{
+                                Text(friend.school)
+                                    .font(.system(.footnote))
+                                Spacer()
+                                Text("Age: \(friend.age)")
+                                    .font(.system(.footnote))
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .navigationTitle("Friendo :D")
         }
     }
 }

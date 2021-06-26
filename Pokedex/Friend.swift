@@ -14,7 +14,7 @@ struct Friend: Identifiable {
     var name: String
     var icon: String
     var school: String
-    var age: Int
     
     var slothImage: String
+    var age: Int
 }
