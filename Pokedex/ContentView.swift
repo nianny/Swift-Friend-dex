@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Firebase
 
 struct ContentView: View {
 //    let db = Firestore.firestore()
